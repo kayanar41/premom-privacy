@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PreMom - Gizlilik Politikası / Privacy Policy</title>
+  <meta name="description" content="PreMom Prematüre Bebek Gelişim & Takip Uygulaması Gizlilik Politikası (Privacy Policy)">
+  <link rel="icon" type="image/jpeg" href="favicon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #9C8EB9;
+      --primary-dark: #6C5B8A;
+      --primary-light: #F4F1FA;
+      --sage: #7EA695;
+      --sage-light: #EFF6F2;
+      --peach: #EAA88C;
+      --peach-light: #FDF3EE;
+      --bg: #F8F9FC;
+      --card-bg: #FFFFFF;
+      --text: #2D3748;
+      --text-muted: #718096;
+      --border: #E2E8F0;
+      --shadow: 0 4px 20px -2px rgba(156, 142, 185, 0.12), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Navigation Banner */
+    .top-header {
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .header-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(156, 142, 185, 0.25);
+    }
+
+    .brand-title {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: var(--primary-dark);
+      letter-spacing: -0.5px;
+    }
+
+    .brand-badge {
+      font-size: 11px;
+      font-weight: 600;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 3px 8px;
+      border-radius: 20px;
+    }
+
+    .lang-switcher {
+      display: flex;
+      background: var(--bg);
+      padding: 4px;
+      border-radius: 30px;
+      border: 1px solid var(--border);
+      gap: 4px;
+    }
+
+    .lang-btn {
+      border: none;
+      background: transparent;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn.active {
+      background: #FFFFFF;
+      color: var(--primary-dark);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(180deg, #FFFFFF 0%, var(--bg) 100%);
+      padding: 48px 24px 32px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--sage-light);
+      color: #3A6953;
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-size: 12.5px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+      color: #1A202C;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-meta {
+      font-size: 13.5px;
+      color: var(--text-muted);
+    }
+
+    /* Content Layout */
+    .main-container {
+      max-width: 900px;
+      margin: 36px auto;
+      padding: 0 24px 80px;
+    }
+
+    .policy-card {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: 40px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+
+    .highlight-banner {
+      background: linear-gradient(135deg, rgba(239, 246, 242, 0.9), rgba(244, 241, 250, 0.9));
+      border: 1.5px solid #C8DDD3;
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 32px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .highlight-icon {
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .highlight-title {
+      font-weight: 700;
+      font-size: 15.5px;
+      color: #234E3A;
+      margin-bottom: 4px;
+    }
+
+    .highlight-text {
+      font-size: 13.5px;
+      color: #3E5A4C;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-bottom: 36px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #1A202C;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--primary-light);
+    }
+
+    .section-title .section-num {
+      width: 28px;
+      height: 28px;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13.5px;
+      font-weight: 800;
+    }
+
+    p {
+      margin-bottom: 14px;
+      font-size: 14.5px;
+      color: #4A5568;
+    }
+
+    ul {
+      margin: 12px 0 18px 24px;
+      color: #4A5568;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 14.5px;
+    }
+
+    strong {
+      color: #2D3748;
+      font-weight: 600;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 13.5px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .data-table th {
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      font-weight: 700;
+      text-align: left;
+      padding: 12px 16px;
+    }
+
+    .data-table td {
+      padding: 12px 16px;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    .data-table tr:nth-child(even) {
+      background: #FAFBFC;
+    }
+
+    .badge-offline {
+      display: inline-block;
+      background: #EBF8F2;
+      color: #237A57;
+      border: 1px solid #B8E4D0;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .contact-card {
+      background: var(--bg);
+      border: 1px dashed var(--primary);
+      border-radius: 14px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .contact-email {
+      color: var(--primary-dark);
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 28px 24px;
+      border-top: 1px solid var(--border);
+      background: #FFFFFF;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer-actions {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .btn-action {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .btn-action:hover {
+      border-color: var(--primary);
+      color: var(--primary-dark);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .header-container {
+        padding: 12px 16px;
+      }
+      .hero {
+        padding: 32px 16px 24px;
+      }
+      .hero h1 {
+        font-size: 26px;
+      }
+      .policy-card {
+        padding: 24px 18px;
+        border-radius: 16px;
+      }
+      .section-title {
+        font-size: 18px;
+      }
+      .data-table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+
+    /* Language display toggle */
+    .content-en {
+      display: none;
+    }
+    body.lang-en .content-tr {
+      display: none;
+    }
+    body.lang-en .content-en {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="top-header">
+    <div class="header-container">
+      <a href="index.html" class="brand" title="PreMom Ana Sayfa">
+        <img src="assets/app_icon.jpg" alt="PreMom Logo" class="brand-icon">
+        <div>
+          <span class="brand-title">PreMom</span>
+          <span class="brand-badge">Official</span>
+        </div>
+      </a>
+      <div class="lang-switcher">
+        <button type="button" class="lang-btn active" id="btnLangTr" onclick="switchLanguage('tr')">🇹🇷 Türkçe</button>
+        <button type="button" class="lang-btn" id="btnLangEn" onclick="switchLanguage('en')">🇬🇧 English</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-pill">
+        <span>🔒</span>
+        <span class="content-tr">Apple App Store, Google Play & KVKK Uyumlu</span>
+        <span class="content-en">Apple App Store, Google Play & GDPR / COPPA Compliant</span>
+      </div>
+      <h1 class="content-tr">PreMom Gizlilik Politikası</h1>
+      <h1 class="content-en">PreMom Privacy Policy</h1>
+      <div class="hero-meta">
+        <span class="content-tr">Son Güncelleme: 23 Eylül 2026 • Sürüm 2.2</span>
+        <span class="content-en">Last Updated: September 23, 2026 • Version 2.2</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+    <article class="policy-card">
+
+      <!-- ============================================== -->
+      <!-- TURKISH CONTENT (VARSAYILAN TÜRKÇE)           -->
+      <!-- ============================================== -->
+      <div class="content-tr">
+        <!-- Güvence Özeti -->
+        <div class="highlight-banner">
+          <div class="highlight-icon">🛡️</div>
+          <div>
+            <div class="highlight-title">Gizliliğiniz ve Bebeğinizin Güvenliği Bizim İçin En Önemli Önceliktir</div>
+            <div class="highlight-text">
+              <strong>PreMom (Prematüre Bebek Gelişim & Takip Sistemi)</strong>, bebeğinize ait tüm sağlık, persentil, beslenme ve kimlik verilerini <strong>yalnızca sizin cihazınızda (yerel olarak)</strong> saklar. Verileriniz hiçbir şekilde harici uzak sunuculara yüklenmez, pazarlanmaz ve üçüncü taraflarla paylaşılmaz. Uygulamayı hesap açmadan tamamen çevrimdışı (offline) kullanabilirsiniz.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1. Giriş ve Genel Bakış -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">1</span>
+            <span>Giriş ve Kapsam</span>
+          </h2>
+          <p>
+            Bu Gizlilik Politikası, <strong>PreMom</strong> mobil uygulaması ve web platformu aracılığıyla işlenen bilgilere ilişkin ilkelerimizi açıklamaktadır. PreMom, prematüre doğan bebeklerin büyüme (Fenton 2013 persentil eğrisi), düzeltilmiş/kronolojik yaş hesaplaması, kuvöz günlüğü, aşı ve günlük bakım (beslenme, bez) takiplerinde ebeveynlere rehberlik etmek üzere geliştirilmiştir.
+          </p>
+          <p>
+            Uygulamamızı kullanarak bu Gizlilik Politikasında belirtilen veri işleme esaslarını kabul etmiş sayılırsınız. Kişisel verilerinizin gizliliği 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve uluslararası çocuk koruma yönergeleri (COPPA, GDPR-Kids) ile tam uyumludur.
+          </p>
+        </section>
+
+        <!-- 2. İşlenen Veri Türleri -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">2</span>
+            <span>İşlenen Veriler ve Kaynakları</span>
+          </h2>
+          <p>
+            PreMom, yalnızca prematüre takip hesaplamalarını yapabilmek ve size kişiselleştirilmiş bir deneyim sunabilmek amacıyla sınırlı bilgileri işler:
+          </p>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Veri Kategorisi</th>
+                <th>İşlenen Bilgiler</th>
+                <th>Saklama Yeri</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Bebek Profili & Gestasyon</strong></td>
+                <td>Bebeğin adı, doğum tarihi, gebelik haftası (hafta ve gün), doğum kilosu, boyu, baş çevresi, cinsiyeti ve taburculuk tarihi.</td>
+                <td><span class="badge-offline">Yalnızca Cihaz İçi (Local)</span></td>
+              </tr>
+              <tr>
+                <td><strong>Büyüme & Persentil</strong></td>
+                <td>Tarih bazlı kilo (gr), boy (cm) ve baş çevresi (cm) ölçüm kayıtları.</td>
+                <td><span class="badge-offline">Yalnızca Cihaz İçi (Local)</span></td>
+              </tr>
+              <tr>
+                <td><strong>Bakım & Beslenme</strong></td>
+                <td>Anne sütü, mama miktarları (ml), emzirme süreleri, bez değişim kayıtları.</td>
+                <td><span class="badge-offline">Yalnızca Cihaz İçi (Local)</span></td>
+              </tr>
+              <tr>
+                <td><strong>Kuvöz Günlüğü & Anılar</strong></td>
+                <td>İlk temas, ilk gülüş gibi gelişim dönüm noktaları, notlar ve isteğe bağlı eklenen fotoğraflar.</td>
+                <td><span class="badge-offline">Yalnızca Cihaz İçi (Local)</span></td>
+              </tr>
+              <tr>
+                <td><strong>Uygulama Tercihleri</strong></td>
+                <td>Seçilen dil (TR, EN, DE, ES, AR, FR), yazı tipi, tema ve karanlık mod ayarları.</td>
+                <td><span class="badge-offline">Yalnızca Cihaz İçi (Local)</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 3. Veri Depolama ve Yerel Saklama Mimarisi -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">3</span>
+            <span>Veri Depolama & Çevrimdışı (Offline-First) Mimari</span>
+          </h2>
+          <p>
+            PreMom, kullanıcı gizliliğini en üst seviyede tutmak amacıyla <strong>çevrimdışı öncelikli (Offline-First)</strong> bir altyapıyla tasarlanmıştır:
+          </p>
+          <ul>
+            <li><strong>Bulut Sunucusu Bulunmaz:</strong> Kaydettiğiniz hiçbir sağlık veya profil verisi bir bulut sunucusuna (cloud) aktarılmaz.</li>
+            <li><strong>Yerel Depolama (Local Storage / SQLite):</strong> Tüm kayıtlar Flutter platformunda <code>SharedPreferences</code> veya yerel veritabanında; Web platformunda ise tarayıcınızın <code>localStorage</code> alanında şifreli/güvenli olarak saklanır.</li>
+            <li><strong>Hesap Zorunluluğu Yoktur:</strong> PreMom'ı kullanmak için üye olmanız, e-posta veya telefon numarası vermeniz gerekmez.</li>
+          </ul>
+        </section>
+
+        <!-- 4. Çocuk ve Aile Politikası (Apple Kids & COPPA & Aile Standartları) -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">4</span>
+            <span>Çocuk ve Bebek Verilerinin Korunması (Apple Kids Category & COPPA)</span>
+          </h2>
+          <p>
+            Uygulamamız prematüre bebeklerin ve ailelerinin gelişim takibini konu almaktadır. Bu kapsamda:
+          </p>
+          <ul>
+            <li>Uygulama doğrudan çocuklar tarafından değil, <strong>ebeveynler ve yasal vasiler</strong> tarafından kullanılmak üzere tasarlanmıştır.</li>
+            <li>Çocuklardan ve ailelerden hiçbir şekilde kişisel veri toplanmaz veya harici sunuculara aktarılmaz.</li>
+            <li>Uygulama içerisinde çocuklara veya yetişkinlere yönelik hiçbir davranışsal reklam ağı, analiz izleyicisi (ad trackers) veya kullanıcı takip mekanizması <strong>bulunmamaktadır</strong>.</li>
+            <li>Uygulamamız Apple App Store İnceleme Kılavuzları (Guideline 1.3 - Kids Category & Guideline 5.1 - Privacy), Google Play Aile Politikası ve COPPA standartlarını eksiksiz karşılar.</li>
+          </ul>
+        </section>
+
+        <!-- 5. İzinler ve Donanım Erişimi (iOS & Android) -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">5</span>
+            <span>Cihaz İzinleri ve Kullanım Amaçları</span>
+          </h2>
+          <p>PreMom yalnızca uygulamanın temel işlevlerini yerine getirebilmek için gerekli minimum izinleri ister:</p>
+          <ul>
+            <li><strong>Bildirim İzni (iOS: UNUserNotificationCenter, Android: POST_NOTIFICATIONS) - İsteğe Bağlı:</strong> Palivizumab (RSV) aşı randevuları, doktor kontrolleri ve beslenme zamanlarını size hatırlatabilmek için yalnızca yerel cihaz içi bildirim kullanılır. Uzak sunucudan bildirim gönderilmez.</li>
+            <li><strong>Fotoğraf / Galeri İzni (iOS: NSPhotoLibraryUsageDescription) - İsteğe Bağlı:</strong> Bebeğinizin profil fotoğrafını veya kuvöz anılarına görsel eklemek istediğinizde kullanılır. Fotoğraflar yalnızca cihazınızın kendi güvenli hafızasında saklanır; hiçbir sunucuya yüklenmez.</li>
+          </ul>
+        </section>
+
+        <!-- 6. Kullanıcı Hakları ve Veri Silme -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">6</span>
+            <span>Veri Kontrolü, Düzeltme ve Kalıcı Silme Hakları</span>
+          </h2>
+          <p>
+            Kullanıcılar verileri üzerinde %100 kontrol sahibidir:
+          </p>
+          <ul>
+            <li><strong>Kayıtları Silme:</strong> Uygulama içerisindeki anı, beslenme, bez veya randevu kayıtlarının yanındaki "Sil" butonuna tıklayarak istediğiniz veriyi anında silebilirsiniz.</li>
+            <li><strong>Tamamen Sıfırlama:</strong> Uygulamayı cihazınızdan kaldırdığınızda veya tarayıcı geçmişini/verilerini temizlediğinizde, yerel olarak saklanan tüm veriler geri döndürülemez şekilde cihazınızdan silinir.</li>
+          </ul>
+        </section>
+
+        <!-- 7. Tıbbi Sorumluluk Reddi (Medical Disclaimer) -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">7</span>
+            <span>Tıbbi Sorumluluk Reddi Beyanı</span>
+          </h2>
+          <p>
+            PreMom uygulaması, uluslararası kabul görmüş prematüre büyüme standartlarını (Fenton 2013 Preterm Growth Chart) referans alarak ebeveynlere bilgi ve takip kolaylığı sağlamak amacıyla tasarlanmıştır. <strong>Uygulamadaki hesaplamalar, düzeltilmiş yaş ve persentil bilgileri bir doktor tavsiyesi veya tıbbi tanı niteliği taşımaz.</strong> Bebeğinizin beslenmesi, büyümesi ve sağlığı ile ilgili tüm kararları mutlaka bebeğinizi takip eden Neonatolog (Yenidoğan Uzmanı) veya Çocuk Sağlığı ve Hastalıkları Doktoru ile birlikte alınız.
+          </p>
+        </section>
+
+        <!-- 8. İletişim -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">8</span>
+            <span>Geliştirici İletişim Bilgileri</span>
+          </h2>
+          <p>
+            Bu Gizlilik Politikası veya uygulamanın gizlilik standartları hakkında herhangi bir sorunuz, öneriniz veya talebiniz olması halinde bizimle dilediğiniz zaman iletişime geçebilirsiniz:
+          </p>
+          <div class="contact-card">
+            <div style="font-weight:700; margin-bottom:4px;">PreMom Geliştirici & Destek Ekibi</div>
+            <p style="margin-bottom:6px;">E-Posta: <a href="mailto:ozhusna@gmail.com" class="contact-email">ozhusna@gmail.com</a></p>
+            <p style="margin-bottom:0; font-size:12.5px; color:var(--text-muted);">Web: <a href="index.html" style="color:var(--primary-dark);">https://premom.app</a></p>
+          </div>
+        </section>
+      </div>
+
+      <!-- ============================================== -->
+      <!-- ENGLISH CONTENT (FOR APP STORE & GOOGLE PLAY)  -->
+      <!-- ============================================== -->
+      <div class="content-en">
+        <!-- Highlight Banner -->
+        <div class="highlight-banner">
+          <div class="highlight-icon">🛡️</div>
+          <div>
+            <div class="highlight-title">Your Privacy & Baby's Safety Is Our Top Priority</div>
+            <div class="highlight-text">
+              <strong>PreMom (Preterm Baby Growth & Care Platform)</strong> stores all of your baby's health, percentile, feeding, and profile data <strong>strictly on your device (offline-first)</strong>. Your personal data is never transmitted to remote servers, never monetized, and never shared with third parties.
+            </div>
+          </div>
+        </div>
+
+        <!-- 1. Introduction -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">1</span>
+            <span>Introduction & Scope</span>
+          </h2>
+          <p>
+            This Privacy Policy governs the processing of information through the <strong>PreMom</strong> mobile application and web platform. PreMom is designed to guide parents of premature babies with Fenton 2013 medical growth curves, corrected and chronological age tracking, NICU diaries, immunization reminders, and daily care logs.
+          </p>
+          <p>
+            By using PreMom, you agree to the data handling practices described in this policy. We strictly comply with Apple App Store Review Guidelines (Guideline 5.1 Privacy & Guideline 1.3 Kids Category), GDPR, COPPA, and Google Play Families Policy guidelines.
+          </p>
+        </section>
+
+        <!-- 2. Data Categories -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">2</span>
+            <span>Categories of Processed Data</span>
+          </h2>
+          <p>PreMom processes only the necessary information required for calculating premature growth milestones:</p>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Data Category</th>
+                <th>Collected Items</th>
+                <th>Storage Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Baby Profile & Gestation</strong></td>
+                <td>Name, birth date, gestational weeks and days at birth, birth weight, birth length, head circumference, gender, NICU discharge date.</td>
+                <td><span class="badge-offline">Local Storage Only</span></td>
+              </tr>
+              <tr>
+                <td><strong>Growth & Percentile</strong></td>
+                <td>Date-stamped measurements of weight (grams), length (cm), and head circumference (cm).</td>
+                <td><span class="badge-offline">Local Storage Only</span></td>
+              </tr>
+              <tr>
+                <td><strong>Care & Feeding</strong></td>
+                <td>Breast milk, formula quantities (ml), nursing durations, and diaper entries.</td>
+                <td><span class="badge-offline">Local Storage Only</span></td>
+              </tr>
+              <tr>
+                <td><strong>Milestones & NICU Diary</strong></td>
+                <td>First touch, first smile, memories, notes, and optional user-selected photos.</td>
+                <td><span class="badge-offline">Local Storage Only</span></td>
+              </tr>
+              <tr>
+                <td><strong>App Preferences</strong></td>
+                <td>Selected display language, font family, typography size, and visual theme.</td>
+                <td><span class="badge-offline">Local Storage Only</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- 3. Storage Architecture -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">3</span>
+            <span>Offline-First Storage Architecture</span>
+          </h2>
+          <ul>
+            <li><strong>No Cloud Servers:</strong> No baby health or personal data is ever uploaded to external cloud servers.</li>
+            <li><strong>Local-Only Storage:</strong> Data is saved locally using <code>SharedPreferences</code> / SQLite on mobile, and <code>localStorage</code> on web.</li>
+            <li><strong>No Registration Required:</strong> The app functions entirely without user accounts, passwords, or emails.</li>
+          </ul>
+        </section>
+
+        <!-- 4. Children & Families Policy (Apple Kids Category & COPPA) -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">4</span>
+            <span>Children & Families Protection (Apple Kids Category, COPPA & Privacy)</span>
+          </h2>
+          <ul>
+            <li>PreMom is intended for use by <strong>parents and legal guardians</strong>.</li>
+            <li>We do not collect, transmit, or monetize any personal information from children or adults.</li>
+            <li>There are <strong>no behavioral ad trackers, no third-party marketing SDKs</strong>, and no background location tracking in the app.</li>
+            <li>Fully compliant with Apple App Store Review Guidelines (Guideline 1.3 - Kids Category & Guideline 5.1 - Privacy) and COPPA standards.</li>
+          </ul>
+        </section>
+
+        <!-- 5. Permissions (iOS & Android) -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">5</span>
+            <span>Device Permissions</span>
+          </h2>
+          <ul>
+            <li><strong>Notifications (iOS: UNUserNotificationCenter, Android: POST_NOTIFICATIONS) - Optional:</strong> Used exclusively for local on-device alarms regarding pediatric appointments, RSV immunizations, and feeding intervals. No remote push notifications or tracking.</li>
+            <li><strong>Photos / Photo Library (iOS: NSPhotoLibraryUsageDescription) - Optional:</strong> Used solely if the parent chooses to attach a photo to the baby's profile or milestone journal. Photos remain strictly on your local device storage.</li>
+          </ul>
+        </section>
+
+        <!-- 6. User Rights & Data Deletion -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">6</span>
+            <span>Your Rights & Data Deletion</span>
+          </h2>
+          <p>
+            You have total sovereignty over your data. Any logged entry can be deleted in real-time through the app's interface. Uninstalling the application completely erases all locally stored data from your device permanently.
+          </p>
+        </section>
+
+        <!-- 7. Medical Disclaimer -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">7</span>
+            <span>Medical Disclaimer</span>
+          </h2>
+          <p>
+            PreMom references standard peer-reviewed premature growth curves (Fenton 2013) for educational and tracking assistance. <strong>Calculations and corrected age outputs provided by PreMom do not constitute medical diagnosis or professional healthcare advice.</strong> Always consult your neonatologist or pediatrician for medical guidance.
+          </p>
+        </section>
+
+        <!-- 8. Contact -->
+        <section class="section">
+          <h2 class="section-title">
+            <span class="section-num">8</span>
+            <span>Developer Contact Information</span>
+          </h2>
+          <p>If you have any questions or inquiries regarding our privacy standards, please contact us:</p>
+          <div class="contact-card">
+            <div style="font-weight:700; margin-bottom:4px;">PreMom Developer Support</div>
+            <p style="margin-bottom:6px;">Email: <a href="mailto:ozhusna@gmail.com" class="contact-email">ozhusna@gmail.com</a></p>
+            <p style="margin-bottom:0; font-size:12.5px; color:var(--text-muted);">Website: <a href="index.html" style="color:var(--primary-dark);">https://premom.app</a></p>
+          </div>
+        </section>
+      </div>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>&copy; 2026 PreMom. Tüm hakları saklıdır / All rights reserved.</div>
+    <div class="footer-actions">
+      <button type="button" class="btn-action" onclick="window.print()">
+        <span>🖨️</span>
+        <span class="content-tr">Yazdır / PDF Olarak Kaydet</span>
+        <span class="content-en">Print / Save as PDF</span>
+      </button>
+      <a href="index.html" class="btn-action">
+        <span>📱</span>
+        <span class="content-tr">Uygulamaya Geri Dön</span>
+        <span class="content-en">Return to App</span>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    function switchLanguage(lang) {
+      if (lang === 'en') {
+        document.body.classList.add('lang-en');
+        document.getElementById('btnLangTr').classList.remove('active');
+        document.getElementById('btnLangEn').classList.add('active');
+        document.documentElement.lang = 'en';
+      } else {
+        document.body.classList.remove('lang-en');
+        document.getElementById('btnLangTr').classList.add('active');
+        document.getElementById('btnLangEn').classList.remove('active');
+        document.documentElement.lang = 'tr';
+      }
+    }
+
+    // Auto-detect browser language if preferred
+    const userLang = navigator.language || navigator.userLanguage;
+    if (userLang && userLang.toLowerCase().startsWith('en')) {
+      switchLanguage('en');
+    }
+  </script>
+</body>
+</html>
